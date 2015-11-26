@@ -170,7 +170,7 @@ OSErr CVideoOutputComponent::DoSettingsDialog(void)
 			      okButtonControlRef = NULL;
 	MenuRef		  componentListMenuRef = NULL,
 				  modeListMenuRef = NULL;
-    EventTypeSpec theEventTypes[] = {kEventClassCommand, kEventCommandProcess};
+    EventTypeSpec theEventTypes[] = {{kEventClassCommand, kEventCommandProcess}};
     GrafPtr		  savedPort;
 	OSErr 		  err;
     

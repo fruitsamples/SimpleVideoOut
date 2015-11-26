@@ -137,7 +137,6 @@
 
 #include "GetFile.h"
 #include "CVideoOutputComponent.h"
-#include "ChooseMovieClock.h"
 
 namespace dts {
 

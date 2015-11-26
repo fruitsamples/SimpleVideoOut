@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B9933CF12834A7A0013C65F /* CVideoOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B9933C912834A7A0013C65F /* CVideoOutput.cpp */; };
+		2B9933D012834A7A0013C65F /* CVideoOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9933CA12834A7A0013C65F /* CVideoOutput.h */; };
+		2B9933D112834A7A0013C65F /* CVideoOutputComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B9933CB12834A7A0013C65F /* CVideoOutputComponent.cpp */; };
+		2B9933D212834A7A0013C65F /* CVideoOutputComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9933CC12834A7A0013C65F /* CVideoOutputComponent.h */; };
+		2B9933D312834A7A0013C65F /* GetFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B9933CD12834A7A0013C65F /* GetFile.c */; };
+		2B9933D412834A7A0013C65F /* GetFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9933CE12834A7A0013C65F /* GetFile.h */; };
+		2B9933D712834A870013C65F /* SimpleVideoOut.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B9933D512834A870013C65F /* SimpleVideoOut.c */; };
+		2B9933D812834A870013C65F /* SimpleVideoOut.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = 2B9933D612834A870013C65F /* SimpleVideoOut.rsrc */; };
+		2B9933DA12834A910013C65F /* CVideoOutputComponent.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = 2B9933D912834A910013C65F /* CVideoOutputComponent.rsrc */; };
+		2B9933DC12834AA50013C65F /* SimpleVideoOut X.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2B9933DB12834AA50013C65F /* SimpleVideoOut X.icns */; };
+		2BD47484070F9C1500F858B5 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		2BD47485070F9C1500F858B5 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67714F5501ED28B205CB1624 /* QuickTime.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		2B9933C912834A7A0013C65F /* CVideoOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVideoOutput.cpp; sourceTree = "<group>"; };
+		2B9933CA12834A7A0013C65F /* CVideoOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVideoOutput.h; sourceTree = "<group>"; };
+		2B9933CB12834A7A0013C65F /* CVideoOutputComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVideoOutputComponent.cpp; sourceTree = "<group>"; };
+		2B9933CC12834A7A0013C65F /* CVideoOutputComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVideoOutputComponent.h; sourceTree = "<group>"; };
+		2B9933CD12834A7A0013C65F /* GetFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GetFile.c; sourceTree = "<group>"; };
+		2B9933CE12834A7A0013C65F /* GetFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetFile.h; sourceTree = "<group>"; };
+		2B9933D512834A870013C65F /* SimpleVideoOut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SimpleVideoOut.c; sourceTree = "<group>"; };
+		2B9933D612834A870013C65F /* SimpleVideoOut.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = SimpleVideoOut.rsrc; sourceTree = "<group>"; };
+		2B9933D912834A910013C65F /* CVideoOutputComponent.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = CVideoOutputComponent.rsrc; sourceTree = "<group>"; };
+		2B9933DB12834AA50013C65F /* SimpleVideoOut X.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "SimpleVideoOut X.icns"; sourceTree = "<group>"; };
+		2BD4748A070F9C1500F858B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD4748B070F9C1500F858B5 /* SimpleVideoOut X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleVideoOut X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67714F5501ED28B205CB1624 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BD47483070F9C1500F858B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD47484070F9C1500F858B5 /* Carbon.framework in Frameworks */,
+				2BD47485070F9C1500F858B5 /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195DF8C9FE9D4F0611CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BD4748B070F9C1500F858B5 /* SimpleVideoOut X.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20286C29FDCF999611CA2CEA /* ¬´PROJECTNAME¬ª */ = {
+			isa = PBXGroup;
+			children = (
+				20286C2AFDCF999611CA2CEA /* Sources */,
+				20286C2CFDCF999611CA2CEA /* Resources */,
+				20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */,
+				195DF8C9FE9D4F0611CA2CBB /* Products */,
+			);
+			name = "¬´PROJECTNAME¬ª";
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2B9933D512834A870013C65F /* SimpleVideoOut.c */,
+				2B9933CA12834A7A0013C65F /* CVideoOutput.h */,
+				2B9933C912834A7A0013C65F /* CVideoOutput.cpp */,
+				2B9933CC12834A7A0013C65F /* CVideoOutputComponent.h */,
+				2B9933CB12834A7A0013C65F /* CVideoOutputComponent.cpp */,
+				2B9933CE12834A7A0013C65F /* GetFile.h */,
+				2B9933CD12834A7A0013C65F /* GetFile.c */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BD4748A070F9C1500F858B5 /* Info.plist */,
+				2B9933D912834A910013C65F /* CVideoOutputComponent.rsrc */,
+				2B9933D612834A870013C65F /* SimpleVideoOut.rsrc */,
+				2B9933DB12834AA50013C65F /* SimpleVideoOut X.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				20286C33FDCF999611CA2CEA /* Carbon.framework */,
+				67714F5501ED28B205CB1624 /* QuickTime.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BD47476070F9C1500F858B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9933D012834A7A0013C65F /* CVideoOutput.h in Headers */,
+				2B9933D212834A7A0013C65F /* CVideoOutputComponent.h in Headers */,
+				2B9933D412834A7A0013C65F /* GetFile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BD47475070F9C1500F858B5 /* SimpleVideoOutXcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0172E1089AB2D600926F67 /* Build configuration list for PBXNativeTarget "SimpleVideoOutXcode" */;
+			buildPhases = (
+				2BD47476070F9C1500F858B5 /* Headers */,
+				2BD4747B070F9C1500F858B5 /* Resources */,
+				2BD4747E070F9C1500F858B5 /* Sources */,
+				2BD47483070F9C1500F858B5 /* Frameworks */,
+				2BD47487070F9C1500F858B5 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleVideoOutXcode;
+			productName = "¬´PROJECTNAME¬ª";
+			productReference = 2BD4748B070F9C1500F858B5 /* SimpleVideoOut X.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20286C28FDCF999611CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2B0172E5089AB2D600926F67 /* Build configuration list for PBXProject "SimpleVideoOutXcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 20286C29FDCF999611CA2CEA /* ¬´PROJECTNAME¬ª */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BD47475070F9C1500F858B5 /* SimpleVideoOutXcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BD4747B070F9C1500F858B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9933DC12834AA50013C65F /* SimpleVideoOut X.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		2BD47487070F9C1500F858B5 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9933D812834A870013C65F /* SimpleVideoOut.rsrc in Rez */,
+				2B9933DA12834A910013C65F /* CVideoOutputComponent.rsrc in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BD4747E070F9C1500F858B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9933CF12834A7A0013C65F /* CVideoOutput.cpp in Sources */,
+				2B9933D112834A7A0013C65F /* CVideoOutputComponent.cpp in Sources */,
+				2B9933D312834A7A0013C65F /* GetFile.c in Sources */,
+				2B9933D712834A870013C65F /* SimpleVideoOut.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B0172E2089AB2D600926F67 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DEBUGGING_SYMBOLS = default;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_LABEL = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = "SimpleVideoOut X";
+				SECTORDER_FLAGS = "";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		2B0172E3089AB2D600926F67 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = "SimpleVideoOut X";
+				SECTORDER_FLAGS = "";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2B0172E6089AB2D600926F67 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Development;
+		};
+		2B0172E7089AB2D600926F67 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B0172E1089AB2D600926F67 /* Build configuration list for PBXNativeTarget "SimpleVideoOutXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0172E2089AB2D600926F67 /* Development */,
+				2B0172E3089AB2D600926F67 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2B0172E5089AB2D600926F67 /* Build configuration list for PBXProject "SimpleVideoOutXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0172E6089AB2D600926F67 /* Development */,
+				2B0172E7089AB2D600926F67 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20286C28FDCF999611CA2CEA /* Project object */;
+}

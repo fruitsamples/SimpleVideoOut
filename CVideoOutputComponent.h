@@ -151,6 +151,8 @@ class CVideoOutputComponent {
 
 typedef std::auto_ptr<CVideoOutputComponent> CVideoOutputComponentPtr;
 
+pascal OSStatus DialogEventHandler(EventHandlerCallRef inHandlerCallRef, EventRef inEvent, void *inUserData);
+
 } // namespace
 
 #endif // __CVIDEOOUTPUTCOMPONENT_H__
